@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="My Computer"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-26 03:59:00 "/>
+        <attribute name="created" value="TXkgQ29tcHV0ZXI7REVTS1RPUC1QOUE1OUw2OzIwMjItMDQtMjY7IjAzOjUxOjUyICI7MzI5MQ=="/>
+        <attribute name="edited" value="TXkgQ29tcHV0ZXI7REVTS1RPUC1QOUE1OUw2OzIwMjItMDQtMjY7IjAzOjUxOjU1ICI7MTtNeSBDb21wdXRlcjtERVNLVE9QLVA5QTU5TDY7MjAyMi0wNC0yNjsiMDI6MzQ6MzQgIjtBdWxhMyAoMcKqKS5mcHJnOzgwNTg="/>
+        <attribute name="edited" value="TXkgQ29tcHV0ZXI7REVTS1RPUC1QOUE1OUw2OzIwMjItMDQtMjY7IjAzOjU5OjAwICI7MTszNDAw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, total, media" type="Real" array="False" size=""/>
+            <input variable="nota1"/>
+            <input variable="nota2"/>
+            <input variable="nota3"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;PASSOU MIZER&#193;VI&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;FOI REPROVADO KKKK&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
